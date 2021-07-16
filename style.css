@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+  }
+  body{
+    color:#333;
+    background-color:#f4f7fa;
+  }
+  .block-info{
+    padding:0 0 0 0;
+    font-weight:300;
+    font-size:1.2rem;
+    line-height:2rem;
+    margin:0 0 40px 0;
+    opacity:0.75;
+  }
+  #imcyx{
+    padding:70px 0 70px 0;
+    background-color:#f4f7fa;
+  }
+  #inp {
+    animation: fadeInRight;
+    animation-duration: 1s;
+  }
+  #inted{
+    flex:0 1 auto;
+    max-width:350px;
+    align-self:center;
+    animation: fadeInLeft; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; 
+  }
+  
+  .heading{
+    margin:0 0 20px 0;
+    font-size:2rem;
+    font-weight:700;
+  }
+  #iqzuk{
+    flex:0 1 auto;
+    max-width:350px;
+    text-align:center;
+    align-self:center;
+    flex-basis:1auto;
+  }
+  #igkax{
+    justify-content:space-around;
+    align-items:center;
+  }
+  #i0bbk{
+    flex:0 1 auto;
+    flex-basis:100%;
+    max-width:300px;
+    animation: fadeInUp;
+    
+    
+  }
+  .swiper-slider .swiper-pagination-bullet-active{
+    background:currentColor !important;
+  }
+  .swiper-slider .swiper-pagination-progressbar-fill{
+    background-color:currentColor !important;
+  }
+  #para{
+    font-size:18px;
+  }
+  #ifbo7{
+    text-align:center;
+  }
+  #icuuv{
+    display:none;
+  }
+  #i1nfq{
+    display:none;
+  }
+  #btn{
+    padding:15px 80px 15px 80px;
+    position:static;
+    background-color:#4da965;
+    mix-blend-mode:normal;
+    margin:20px 0 0 0;
+    animation: fadeInRight;
+    animation-duration: 1s;
+  }
+  #result{
+    text-align: center;
+    padding: 10px 60px;
+    overflow-wrap: break-word;
+    margin:20px 0 0 0;
+    animation: fadeInUp;
+    animation-duration: 1s;
+    
+  }
+  @media (max-width: 768px){
+    #inted{
+      max-width:100%;
+      margin:0 0 30px 0;
+    }
+    #i0bbk{
+      display:none;
+    }
+    #iqzuk{
+      max-width:100%;
+    }
+    #igkax{
+      justify-content:center;
+    }
+  }
+  @media (max-width: 415px){
+    #iqzuk{
+      align-self:center;
+    }
+  }
+  @media (max-width: 375px){
+    .block-info{
+      font-size:1rem;
+    }
+  }
+  
